@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Plus Jakarta Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="test.css">
+
+    <title>Morent</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Morent</div>
+        <div class="search-bar">
+            
+            <img  src="img/search-normal.png" alt="filter">
+            <input type="text" placeholder="Search something here">   
+            <img  src="img/filter.png" alt="filter">
+        </div>
+
+        <div>
+            <img src="img/Like.png" alt="filter">
+            <img src="img/Notification.png" alt="filter">
+            <img src="img/Settings.png" alt="filter">
+            <img src="img/Profil.png" alt="filter">
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="ads">
+            <div class="ads1" id="ad1">
+                <p class="font1">The Best Platform for car rental</p>
+                <p class="font2">Ease of doing a car rental safely and reliably. Of course at a low price.</p>
+                <button class="ads-button">Rental Car</button>
+            </div>
+            <div class="ads1" id = "ad2">
+                <p class="font1">Easy way to rent a car at a low price</p>
+                <p class="font2">Providing cheap car rental services and safe and comfortable facilities.</p>
+                <button class="ads-button">Rental Car</button>
+            </div>
+        </div>
+        <div class="pick-up">
+
+            <div class="pick-up-container">
+                <div class="pick-up-header">
+                  <img src="img/mark.png" alt="location mark"> Pick - Up
+                </div>
+                <div class="pick-up-options">
+                  <div class="option">
+                    <label>Locations</label>
+                    <select>
+                      <option>Select your city</option>
+                    </select>
+                  </div>
+                  <div class="divider"></div>
+                  <div class="option">
+                    <label>Date</label>
+                    <select>
+                      <option>Select your date</option>
+                    </select>
+                  </div>
+                  <div class="divider"></div>
+                  <div class="option">
+                    <label>Time</label>
+                    <select>
+                      <option>Select your time</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swap-button"><img id="swap-img" src="img/Swap.png"><img></div>
+            <div class="pick-up-container">
+                <div class="pick-up-header">
+                    <img src="img/mark.png" alt="location mark"> Drop - Off
+                </div>
+                <div class="pick-up-options">
+                  <div class="option">
+                    <label>Locations</label>
+                    <select>
+                      <option>Select your city</option>
+                    </select>
+                  </div>
+                  <div class="divider"></div>
+                  <div class="option">
+                    <label>Date</label>
+                    <select>
+                      <option>Select your date</option>
+                    </select>
+                  </div>
+                  <div class="divider"></div>
+                  <div class="option">
+                    <label>Time</label>
+                    <select>
+                      <option>Select your time</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="popular-car-heading">
+            <p>Popular Car</p>
+            <p id="view-all">View All</p>
+        </div>
+
+        <div class="popular-table">
+            <div class="car-card">
+                <div>
+                    <div id="car-name">
+                        Koenigsegg
+                        <img src= "/img/Like .png" alt="favourite">
+                    </div>
+                    <div id="car-type">
+                        Sport
+                    </div>
+                </div>
+                <img src="/img/ads1-car.png" alt="Koenigsegg car image">
+
+                <div>
+                    <div class="car-info">
+                        <div class="gasstation">
+                            <img src="img/gas-station.png" alt="gas-station-image">
+                        <p>90L</p>
+                        </div>
+                        <div class="manual">
+                            <img src="img/Circle 4.png" alt="Manual"></img>
+                        <p>Manual</p>
+                        </div>
+                        <div class="people">
+                            <img src="/img/profile-2user.png" alt="PROFILE-IMAGE">
+                        <p> 2 people</p>
+                        </div>
+                    </div>
+                    <div id="car-price">
+                        <div style="display: flex; ">
+                            <p style="font-weight: bold; font-size: 20px;">$99.00/</p>
+                            <p style="color: #90A3BF; font-size: 14px;">day</p>
+                        </div>
+                        <button class="rent-button">Rent Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div>
+                    <div id="car-name">
+                        Koenigsegg
+                        <img src= "/img/Like .png" alt="favourite">
+                    </div>
+                    <div id="car-type">
+                        Sport
+                    </div>
+                </div>
+                <img src="/img/ads1-car.png" alt="Koenigsegg car image">
+
+                <div>
+                    <div class="car-info">
+                        <div class="gasstation">
+                            <img src="img/gas-station.png" alt="gas-station-image">
+                        <p>90L</p>
+                        </div>
+                        <div class="manual">
+                            <img src="img/Circle 4.png" alt="Manual"></img>
+                        <p>Manual</p>
+                        </div>
+                        <div class="people">
+                            <img src="/img/profile-2user.png" alt="PROFILE-IMAGE">
+                        <p> 2 people</p>
+                        </div>
+                    </div>
+                    <div id="car-price">
+                        <div style="display: flex; ">
+                            <p style="font-weight: bold; font-size: 20px;">$99.00/</p>
+                            <p style="color: #90A3BF; font-size: 14px;">day</p>
+                        </div>
+                        <button class="rent-button">Rent Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div>
+                    <div id="car-name">
+                        Koenigsegg
+                        <img src= "/img/Like .png" alt="favourite">
+                    </div>
+                    <div id="car-type">
+                        Sport
+                    </div>
+                </div>
+                <img src="/img/ads1-car.png" alt="Koenigsegg car image">
+
+                <div>
+                    <div class="car-info">
+                        <div class="gasstation">
+                            <img src="img/gas-station.png" alt="gas-station-image">
+                        <p>90L</p>
+                        </div>
+                        <div class="manual">
+                            <img src="img/Circle 4.png" alt="Manual"></img>
+                        <p>Manual</p>
+                        </div>
+                        <div class="people">
+                            <img src="/img/profile-2user.png" alt="PROFILE-IMAGE">
+                        <p> 2 people</p>
+                        </div>
+                    </div>
+                    <div id="car-price">
+                        <div style="display: flex; ">
+                            <p style="font-weight: bold; font-size: 20px;">$99.00/</p>
+                            <p style="color: #90A3BF; font-size: 14px;">day</p>
+                        </div>
+                        <button class="rent-button">Rent Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div>
+                    <div id="car-name">
+                        Koenigsegg
+                        <img src= "/img/Like .png" alt="favourite">
+                    </div>
+                    <div id="car-type">
+                        Sport
+                    </div>
+                </div>
+                <img src="/img/ads1-car.png" alt="Koenigsegg car image">
+
+                <div>
+                    <div class="car-info">
+                        <div class="gasstation">
+                            <img src="img/gas-station.png" alt="gas-station-image">
+                        <p>90L</p>
+                        </div>
+                        <div class="manual">
+                            <img src="img/Circle 4.png" alt="Manual"></img>
+                        <p>Manual</p>
+                        </div>
+                        <div class="people">
+                            <img src="/img/profile-2user.png" alt="PROFILE-IMAGE">
+                        <p> 2 people</p>
+                        </div>
+                    </div>
+                    <div id="car-price">
+                        <div style="display: flex; ">
+                            <p style="font-weight: bold; font-size: 20px;">$99.00/</p>
+                            <p style="color: #90A3BF; font-size: 14px;">day</p>
+                        </div>
+                        <button class="rent-button">Rent Now</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="popular-car-heading">
+            <p>Recomendation Car</p>
+        </div>
+
+        <div class="popular-table">
+            <div class="car-card">
+                <div>
+                    <div id="car-name">
+                        Koenigsegg
+                        <img src= "/img/Like .png" alt="favourite">
+                    </div>
+                    <div id="car-type">
+                        Sport
+                    </div>
+                </div>
+                <img src="/img/ads1-car.png" alt="Koenigsegg car image">
+
+                <div>
+                    <div class="car-info">
+                        <div class="gasstation">
+                            <img src="img/gas-station.png" alt="gas-station-image">
+                        <p>90L</p>
+                        </div>
+                        <div class="manual">
+                            <img src="img/Circle 4.png" alt="Manual"></img>
+                        <p>Manual</p>
+                        </div>
+                        <div class="people">
+                            <img src="/img/profile-2user.png" alt="PROFILE-IMAGE">
+                        <p> 2 people</p>
+                        </div>
+                    </div>
+                    <div id="car-price">
+                        <div style="display: flex; ">
+                            <p style="font-weight: bold; font-size: 20px;">$99.00/</p>
+                            <p style="color: #90A3BF; font-size: 14px;">day</p>
+                        </div>
+                        <button class="rent-button">Rent Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div>
+                    <div id="car-name">
+                        Koenigsegg
+                        <img src= "/img/Like .png" alt="favourite">
+                    </div>
+                    <div id="car-type">
+                        Sport
+                    </div>
+                </div>
+                <img src="/img/ads1-car.png" alt="Koenigsegg car image">
+
+                <div>
+                    <div class="car-info">
+                        <div class="gasstation">
+                            <img src="img/gas-station.png" alt="gas-station-image">
+                        <p>90L</p>
+                        </div>
+                        <div class="manual">
+                            <img src="img/Circle 4.png" alt="Manual"></img>
+                        <p>Manual</p>
+                        </div>
+                        <div class="people">
+                            <img src="/img/profile-2user.png" alt="PROFILE-IMAGE">
+                        <p> 2 people</p>
+                        </div>
+                    </div>
+                    <div id="car-price">
+                        <div style="display: flex; ">
+                            <p style="font-weight: bold; font-size: 20px;">$99.00/</p>
+                            <p style="color: #90A3BF; font-size: 14px;">day</p>
+                        </div>
+                        <button class="rent-button">Rent Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div>
+                    <div id="car-name">
+                        Koenigsegg
+                        <img src= "/img/Like .png" alt="favourite">
+                    </div>
+                    <div id="car-type">
+                        Sport
+                    </div>
+                </div>
+                <img src="/img/ads1-car.png" alt="Koenigsegg car image">
+
+                <div>
+                    <div class="car-info">
+                        <div class="gasstation">
+                            <img src="img/gas-station.png" alt="gas-station-image">
+                        <p>90L</p>
+                        </div>
+                        <div class="manual">
+                            <img src="img/Circle 4.png" alt="Manual"></img>
+                        <p>Manual</p>
+                        </div>
+                        <div class="people">
+                            <img src="/img/profile-2user.png" alt="PROFILE-IMAGE">
+                        <p> 2 people</p>
+                        </div>
+                    </div>
+                    <div id="car-price">
+                        <div style="display: flex; ">
+                            <p style="font-weight: bold; font-size: 20px;">$99.00/</p>
+                            <p style="color: #90A3BF; font-size: 14px;">day</p>
+                        </div>
+                        <button class="rent-button">Rent Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div>
+                    <div id="car-name">
+                        Koenigsegg
+                        <img src= "/img/Like .png" alt="favourite">
+                    </div>
+                    <div id="car-type">
+                        Sport
+                    </div>
+                </div>
+                <img src="/img/ads1-car.png" alt="Koenigsegg car image">
+
+                <div>
+                    <div class="car-info">
+                        <div class="gasstation">
+                            <img src="img/gas-station.png" alt="gas-station-image">
+                        <p>90L</p>
+                        </div>
+                        <div class="manual">
+                            <img src="img/Circle 4.png" alt="Manual"></img>
+                        <p>Manual</p>
+                        </div>
+                        <div class="people">
+                            <img src="/img/profile-2user.png" alt="PROFILE-IMAGE">
+                        <p> 2 people</p>
+                        </div>
+                    </div>
+                    <div id="car-price">
+                        <div style="display: flex; ">
+                            <p style="font-weight: bold; font-size: 20px;">$99.00/</p>
+                            <p style="color: #90A3BF; font-size: 14px;">day</p>
+                        </div>
+                        <button class="rent-button">Rent Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div>
+                    <div id="car-name">
+                        Koenigsegg
+                        <img src= "/img/Like .png" alt="favourite">
+                    </div>
+                    <div id="car-type">
+                        Sport
+                    </div>
+                </div>
+                <img src="/img/ads1-car.png" alt="Koenigsegg car image">
+
+                <div>
+                    <div class="car-info">
+                        <div class="gasstation">
+                            <img src="img/gas-station.png" alt="gas-station-image">
+                        <p>90L</p>
+                        </div>
+                        <div class="manual">
+                            <img src="img/Circle 4.png" alt="Manual"></img>
+                        <p>Manual</p>
+                        </div>
+                        <div class="people">
+                            <img src="/img/profile-2user.png" alt="PROFILE-IMAGE">
+                        <p> 2 people</p>
+                        </div>
+                    </div>
+                    <div id="car-price">
+                        <div style="display: flex; ">
+                            <p style="font-weight: bold; font-size: 20px;">$99.00/</p>
+                            <p style="color: #90A3BF; font-size: 14px;">day</p>
+                        </div>
+                        <button class="rent-button">Rent Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div>
+                    <div id="car-name">
+                        Koenigsegg
+                        <img src= "/img/Like .png" alt="favourite">
+                    </div>
+                    <div id="car-type">
+                        Sport
+                    </div>
+                </div>
+                <img src="/img/ads1-car.png" alt="Koenigsegg car image">
+
+                <div>
+                    <div class="car-info">
+                        <div class="gasstation">
+                            <img src="img/gas-station.png" alt="gas-station-image">
+                        <p>90L</p>
+                        </div>
+                        <div class="manual">
+                            <img src="img/Circle 4.png" alt="Manual"></img>
+                        <p>Manual</p>
+                        </div>
+                        <div class="people">
+                            <img src="/img/profile-2user.png" alt="PROFILE-IMAGE">
+                        <p> 2 people</p>
+                        </div>
+                    </div>
+                    <div id="car-price">
+                        <div style="display: flex; ">
+                            <p style="font-weight: bold; font-size: 20px;">$99.00/</p>
+                            <p style="color: #90A3BF; font-size: 14px;">day</p>
+                        </div>
+                        <button class="rent-button">Rent Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div>
+                    <div id="car-name">
+                        Koenigsegg
+                        <img src= "/img/Like .png" alt="favourite">
+                    </div>
+                    <div id="car-type">
+                        Sport
+                    </div>
+                </div>
+                <img src="/img/ads1-car.png" alt="Koenigsegg car image">
+
+                <div>
+                    <div class="car-info">
+                        <div class="gasstation">
+                            <img src="img/gas-station.png" alt="gas-station-image">
+                        <p>90L</p>
+                        </div>
+                        <div class="manual">
+                            <img src="img/Circle 4.png" alt="Manual"></img>
+                        <p>Manual</p>
+                        </div>
+                        <div class="people">
+                            <img src="/img/profile-2user.png" alt="PROFILE-IMAGE">
+                        <p> 2 people</p>
+                        </div>
+                    </div>
+                    <div id="car-price">
+                        <div style="display: flex; ">
+                            <p style="font-weight: bold; font-size: 20px;">$99.00/</p>
+                            <p style="color: #90A3BF; font-size: 14px;">day</p>
+                        </div>
+                        <button class="rent-button">Rent Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div>
+                    <div id="car-name">
+                        Koenigsegg
+                        <img src= "/img/Like .png" alt="favourite">
+                    </div>
+                    <div id="car-type">
+                        Sport
+                    </div>
+                </div>
+                <img src="/img/ads1-car.png" alt="Koenigsegg car image">
+
+                <div>
+                    <div class="car-info">
+                        <div class="gasstation">
+                            <img src="img/gas-station.png" alt="gas-station-image">
+                        <p>90L</p>
+                        </div>
+                        <div class="manual">
+                            <img src="img/Circle 4.png" alt="Manual"></img>
+                        <p>Manual</p>
+                        </div>
+                        <div class="people">
+                            <img src="/img/profile-2user.png" alt="PROFILE-IMAGE">
+                        <p> 2 people</p>
+                        </div>
+                    </div>
+                    <div id="car-price">
+                        <div style="display: flex; ">
+                            <p style="font-weight: bold; font-size: 20px;">$99.00/</p>
+                            <p style="color: #90A3BF; font-size: 14px;">day</p>
+                        </div>
+                        <button class="rent-button">Rent Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------ -->
+    </div>
+</body>
+</html>
