@@ -2,7 +2,8 @@ body {
   font-family: 'Plus Jakarta Sans';
   background-color: #F6F7F9;
   font-size: 22px;
-  margin: 0px;
+  margin: 0;
+  padding-bottom: 30px;
 }
 .navbar {
   display: flex;
@@ -12,7 +13,7 @@ body {
   background-color: #ffffff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-.navbar .logo {
+.logo {
   font-size: 24px;
   color: #306EF6;
   font-weight: bold;
@@ -173,6 +174,7 @@ body {
   background: #3563E9;
   margin: auto 30px;
   padding: 15px;
+  box-shadow: 0 4px 8px 0 rgba(19, 156, 241, 0.014), 0 6px 20px 0 #10329347;
 }
 
 .popular-car-heading{
@@ -265,3 +267,88 @@ p{
   color: white;
   font-weight: bold;
 }
+
+.show-more-row {
+  display: flex;
+  align-items: center;
+  margin: 40px;
+  justify-content: center;
+}
+
+.show-more-button{
+  width:156px;
+  height: 44px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3563E9;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#more-car{
+  color: #90A3BF;
+  font-size: 14px;
+  position: absolute;
+  right: 60px;
+}
+
+.footer{
+  background-color: white;
+  margin: 0;
+  padding: 80px 60px;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.footer .logo{
+  padding-bottom: 20px;
+}
+
+.footer #description{
+  font-size: 16px;
+  color: #13131399;
+}
+
+.footer #footer-table{
+  border-spacing: 70px 0px;
+  border-collapse: separate;
+  /* border: 1px solid; */
+}
+
+.footer #footer-table th{
+  font-size: 20px;
+  padding-bottom: 40px;
+  font-weight: bold;
+  color: #1A202C;
+}
+
+.footer #footer-table td{
+  font-size: 16px;
+  color: #13131399;
+  padding-bottom: 15px;
+}
+
+.bottom-fotter{
+  justify-content: space-between;
+  display: flex;
+}
+
+.bottom-fotter p{
+  font-size: 16px;
+  color: #1A202C;
+}
+
+.bottom-fotter #bottom-rights{
+  display: flex;
+}
+
+.bottom-fotter #bottom-rights p{
+  font-size: 16px;
+  color: #1A202C;
+  padding: 0px 20px 0px 20px;
+}
+
