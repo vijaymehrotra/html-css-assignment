@@ -36,13 +36,14 @@ body {
 }
 .main{
   margin: 0px 40px;
+  overflow: hidden;
 }
 
 .ads{
   display: flex;
-  flex-wrap: wrap;
   width: 100%;
   margin-top: 40px;
+  flex-wrap: wrap;
 }
 
 .ads1 {
@@ -109,11 +110,13 @@ body {
 
 .pick-up {
   display: flex;
-  align-items: center;
+  align-items: center;  
+  flex-wrap: wrap;
 }
 
 .pick-up-container {
-  width: 100%;
+  width: 90%;
+  flex: 1;
   background-color: white;
   padding: 20px 30px;
   border-radius: 10px;
@@ -192,7 +195,7 @@ body {
 .popular-table{
   margin: 0px 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   row-gap: 20px;
 }
@@ -335,6 +338,7 @@ p{
 .bottom-fotter{
   justify-content: space-between;
   display: flex;
+  font-weight: bold;
 }
 
 .bottom-fotter p{
@@ -351,4 +355,3 @@ p{
   color: #1A202C;
   padding: 0px 20px 0px 20px;
 }
-
