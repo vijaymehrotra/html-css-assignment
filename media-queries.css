@@ -1,4 +1,4 @@
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 921px) {
     .navbar{
         padding: 10px;
     }
@@ -58,6 +58,17 @@
 
     .car-info-recommend .gasstation,.manual,.people {
         display: flex;
+    }
+
+    .footer {
+        display: block;
+        background-color: transparent;
+    }
+
+    .footer #footer-table{
+        margin-top: 40px;
+        border-collapse: separate;
+        
     }
 }
 
