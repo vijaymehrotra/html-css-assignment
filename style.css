@@ -5,14 +5,20 @@ body {
   margin: 0;
   padding-bottom: 30px;
 }
+.navbar-top{
+  background-color:  white;
+}
 .navbar {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
   background-color: #ffffff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+.menu{
+  display: flex;
+}
+
 .logo {
   font-size: 24px;
   color: #306EF6;
@@ -34,9 +40,42 @@ body {
   font-size: 14px;
   width: 200px;
 }
+
 .main{
   margin: 0px 40px;
   overflow: hidden;
+}
+
+.search-bar-mobile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 15px;
+}
+
+.search-bar-mobile div{
+  border: 1px solid #C3D4E966;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #f9f9f9;
+  width: 70vi;
+  padding: 10px;
+  gap: 15px;
+}
+
+.search-bar-mobile input{
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 14px;
+}
+
+.search-bar-mobile #img1 {
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 2px;
+  border-color: #C3D4E966;
 }
 
 .ads{
@@ -115,13 +154,11 @@ body {
 }
 
 .pick-up-container {
-  width: 90%;
   flex: 1;
-  background-color: white;
-  padding: 20px 30px;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px 10px;
   margin: 20px auto;
+  border-radius: 10px;
+  background-color: white;
 }
 
 .pick-up-header {
@@ -130,6 +167,7 @@ body {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
+  gap: 10px;
 }
 
 .pick-up-options {
@@ -173,7 +211,6 @@ body {
 .swap-button {
   display: flex;
   border-radius: 10px;
-  opacity: 0px;
   background: #3563E9;
   margin: auto 30px;
   padding: 15px;
@@ -193,6 +230,15 @@ body {
 }
 
 .popular-table{
+  /* margin: 0px 10px; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px
+}
+
+.recommendation-table{
   margin: 0px 10px;
   display: flex;
   justify-content: space-around;
@@ -227,12 +273,16 @@ body {
   color: #90A3BF;
 }
 
+
 .car-card img{
   width: 232px;
-  height: 72px;
   padding-left: 20px;
 }
 
+.car-info-image-desc{
+  display: flex;
+  align-items: end;
+}
 .car-info {
   font-size: 14px;
   display: flex;
@@ -269,6 +319,12 @@ p{
   border-radius: 5px;
   color: white;
   font-weight: bold;
+}
+
+.car-card-img-desc{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  
 }
 
 .show-more-row {

@@ -1,3 +1,68 @@
-@media screen {
-    
+@media screen and (max-width: 650px) {
+    .navbar{
+        padding: 10px;
+    }
+    .menuItems{
+        display: none;
+    }
+    .navbar .search-bar{
+        display: none;
+    }
+    .ads1{
+        margin: auto;
+    }
+    .ads2{
+        display: none;
+    }                      
+    .font1 ,.font2{
+        max-width: 80%;
+    }
+
+    .pick-up {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: flex-start;
+    }
+
+    .swap-button {
+        margin: auto;
+        width: 25px;
+        height: 25px;
+    }
+
+    .pick-up-container {
+        margin: 15px 0;
+        width: 100%;
+    }
+
+    .popular-table{
+        flex-direction: row;
+        overflow-x: auto;
+        overflow-y: hidden;
+        flex-wrap: nowrap;
+    }
+
+    .recommendation-table .car-card{
+        width: 100%;
+    }
+
+    .recommendation-table .car-info{
+        display: none;
+    }
+
+    .car-info-recommend img{
+        color: #90A3BF;
+        height: 24px;
+        width: 24px;
+        padding-bottom: 20px;
+    }
+
+    .car-info-recommend .gasstation,.manual,.people {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 651px) {
+    .search-bar-mobile{
+        display: none;
+    }
 }
