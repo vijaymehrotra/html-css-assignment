@@ -282,6 +282,7 @@ body {
 .car-info-image-desc{
   display: flex;
   align-items: end;
+  justify-content: space-around;
 }
 .car-info {
   font-size: 14px;
@@ -298,7 +299,7 @@ body {
 p{
   margin: 0;
 }
-.car-info .gasstation,.manual,.people{
+.car-info .gasstation1,.manual1,.people1{
   display: flex;
   text-align: center;
   gap:6px;

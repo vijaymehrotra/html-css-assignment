@@ -65,4 +65,8 @@
     .search-bar-mobile{
         display: none;
     }
+
+    .car-info-recommend .gasstation,.manual,.people {
+        display: none;
+    }
 }
