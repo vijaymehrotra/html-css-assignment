@@ -357,7 +357,6 @@ p{
 
 .footer{
   background-color: white;
-  margin: 0;
   padding: 80px 60px;
   display: flex;
   justify-content: space-between;
@@ -378,36 +377,56 @@ p{
   border-collapse: separate;
 }
 
-.footer #footer-table th{
+.footer .table-container #about-col th{
   font-size: 20px;
   padding-bottom: 40px;
   font-weight: bold;
   color: #1A202C;
 }
 
-.footer #footer-table td{
+.footer .table-container #about-col td{
   font-size: 16px;
   color: #13131399;
   padding-bottom: 15px;
 }
 
-.bottom-fotter{
+.bottom-fotter1{
   justify-content: space-between;
   display: flex;
   font-weight: bold;
 }
 
-.bottom-fotter p{
+.bottom-fotter1,.bottom-fotter2 p{
   font-size: 16px;
   color: #1A202C;
 }
 
-.bottom-fotter #bottom-rights{
+.bottom-fotter1 #bottom-rights{
   display: flex;
 }
 
-.bottom-fotter #bottom-rights p{
+.bottom-fotter1 #bottom-rights p{
   font-size: 16px;
   color: #1A202C;
   padding: 0px 20px 0px 20px;
+}
+
+.bottom-fotter2{
+  font-weight: bold;
+}
+
+.bottom-fotter2 #bottom-rights{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer .table-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.table-container #about-col {
+  margin: 30px 0px;
 }

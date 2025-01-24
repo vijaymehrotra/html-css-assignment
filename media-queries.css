@@ -63,21 +63,33 @@
     .footer {
         display: block;
         background-color: transparent;
+        padding: 80px 10px;
     }
 
-    .footer #footer-table{
+    /* .footer #footer-table{
         margin-top: 40px;
-        border-collapse: separate;
+        border-spacing: 20px;
+        overflow-wrap: anywhere;
         
     }
+      */
+
+    .bottom-fotter1{
+        display: none;
+    } 
+
+    
 }
 
 @media screen and (min-width: 651px) {
     .search-bar-mobile{
         display: none;
     }
-
+    
     .car-info-recommend .gasstation,.manual,.people {
+        display: none;
+    }
+    .bottom-fotter2{
         display: none;
     }
 }
